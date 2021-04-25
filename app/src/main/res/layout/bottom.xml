@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#7b1894ec"
+    android:orientation="horizontal"
+    >
+
+    <LinearLayout
+        android:id="@+id/llwx"
+        android:layout_width="1dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        >
+
+        <ImageView
+            android:id="@+id/imgwx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/tack1"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="首页"
+            android:id="@+id/tvwx"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/lltxl"
+        android:layout_width="1dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        >
+
+        <ImageView
+            android:id="@+id/imgtxl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/tack2"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="生活用电"
+            android:id="@+id/tvtxl"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llfx"
+        android:layout_width="1dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        >
+
+        <ImageView
+            android:id="@+id/imgfx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/tack3"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="学习用电"
+            android:id="@+id/tvfx"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llsz"
+        android:layout_width="1dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        >
+
+        <ImageView
+            android:id="@+id/imgsz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/tack4"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="设置"
+            android:id="@+id/tvsz"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            />
+    </LinearLayout>
+</LinearLayout>
